@@ -1,0 +1,8 @@
+prefix=/home/racecar/Desktop/lab1/rss_lab1/devel
+
+Name: ros_exercises
+Description: Description of ros_exercises
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/racecar/Desktop/lab1/rss_lab1/devel/lib 
+Requires: 
