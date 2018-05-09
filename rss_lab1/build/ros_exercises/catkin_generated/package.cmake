@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "ros_exercises")
 set(ros_exercises_VERSION "0.0.0")
-set(ros_exercises_MAINTAINER "racecar <racecar@todo.todo>")
+set(ros_exercises_MAINTAINER "ishani <ishani.thakur@gmail.com>")
 set(ros_exercises_PACKAGE_FORMAT "2")
 set(ros_exercises_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(ros_exercises_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

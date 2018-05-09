@@ -2,12 +2,12 @@
 <package format="2">
   <name>ros_exercises</name>
   <version>0.0.0</version>
-  <description>The ros_exercises package</description>
+  <description>First try at ROS Packages</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="racecar@todo.todo">racecar</maintainer>
+  <maintainer email="ishani.thakur@gmail.com">ishani</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
