@@ -2,12 +2,12 @@
 import rospy
 from sensor_msgs.msg import LaserScan
 from std_msgs.msg import Header
-import OpenSpace.msg
 import random
 import math
+from ros_exercises.msg import OpenSpace
 from std_msgs.msg import Float32
-dist = rospy.Publisher('open_space/distance', Float32, queue_size=10)
-ang = rospy.Publisher('open_space/angle', Float32, queue_size=10)
+pub = rospy.Publisher('open_space', OpenSpace, queue_size=10)
+#ang = rospy.Publisher('open_space/angle', Float32, queue_size=10)
 d = 0.0
 a = 0.0
 def callback(data):
@@ -15,8 +15,7 @@ def callback(data):
     #print("a is: " + str(a))
     rospy.loginfo(d)
     rospy.loginfo(a)
-    dist.publish(d)
-    ang.publish(a)
+    pub.publish(OpenSpace(distance=d,angle=a))
 def process(ranges):
     largest = -1.0
     ang = 0.0
