@@ -45,7 +45,7 @@ def talker():
     rate = rospy.Rate(20) # 10hz
     while not rospy.is_shutdown():
         initial = random.randint(0,100)
-        rF = initial/10
+        rF = initial/10.0
         rospy.loginfo(rF)
         pub.publish(rF)
         rate.sleep()
